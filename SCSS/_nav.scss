@@ -1,0 +1,39 @@
+ul { 
+    list-style-type: none;
+    margin-left: 280px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;  
+    flex-wrap: nowrap;  
+    align-items: center;   
+    justify-content: space-evenly; 
+    li { 
+        position: relative;
+        a {
+            display: block;
+            padding: 25px;
+            letter-spacing: 4px;
+            font-family: 'Gowun Batang', serif;
+            font-size: 14px;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+        } 
+    }
+        
+
+}
+/*Inicio de animacion en el menu*/ 
+li::before {    
+    margin-top: 50px;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background:white;
+    position: absolute;
+    transition: 0.4s ease-out;
+}
+li:hover::before {  
+    width: 100%;
+}
+/*Final de animacion del menu*/

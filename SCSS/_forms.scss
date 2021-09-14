@@ -1,0 +1,78 @@
+/*SOLICITA ENTREVISTA*/
+input[type=text]{
+    font-family: 'Gowun Batang', serif;  
+    font-size: 15px;
+    text-align: left;
+    height: 60px;
+    width: 50%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #C4C4C4;
+    margin-left: 25%;
+    opacity: 70%;   
+}
+
+.boton2{
+    background-color:#C4C4C4;
+    border: none;
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    color:black;
+    border-radius: 2px;     
+    padding: 10px 20px;
+    margin-left: 25%;
+    height: 60px;  
+    width: 50%; 
+    opacity: 90%;    
+    font-size: 17px;     
+    letter-spacing: 3px;   
+}
+
+/*CONTACTO*/
+.boton{
+    background-color:#C4C4C4;
+    font-size: 17px;
+    letter-spacing: 3px;
+    border:none;    
+    border-radius: 4px; 
+    text-align: center;
+    font-family: 'Gowun Batang', serif;
+    color: white;
+    height: 60px;  
+    width: 50%; 
+    opacity: 90%;   
+}
+textarea{
+    font-family: 'Gowun Batang', serif;  
+    opacity: 70%; 
+    text-align: left;
+    font-size: 15px;
+    height: 74px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #C4C4C4;
+    mix-blend-mode: hard-light;
+}
+
+input.fcontacto{
+    font-family: 'Gowun Batang', serif;  
+    opacity: 70%; 
+    text-align: left;
+    font-size: 15px;
+    height: 60px;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #C4C4C4;
+    mix-blend-mode: hard-light;
+}

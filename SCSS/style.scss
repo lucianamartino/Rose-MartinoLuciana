@@ -1,0 +1,35 @@
+@import "fondos";
+@import "footer";
+@import "nav";
+@import "header";
+@import "forms";
+@import "h3";
+@import "galerias";
+@import "main";
+@import "grids";
+
+/*ANIMACION FLECHA*/
+.animate__fadeOutDown{
+    animation-play-state: running;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;    
+}
+
+
+.contenedorflecha{
+    margin-top: 10%;
+    margin-left: 45%;
+}
+.contenedorflecha a img{
+    width: 90px;
+    height: 55px;
+}
+/*TEXTO MAS DE NOSOTRAS*/
+p{
+    font-family: 'Gowun Batang', serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white; 
+    margin-top: -2px;
+}
